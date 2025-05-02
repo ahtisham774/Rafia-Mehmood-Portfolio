@@ -26,7 +26,7 @@ export default function PortfolioHero() {
                     </div>
 
                     {/* Right side - Text content */}
-                    <div className="w-full xl:w-1/2 flex flex-col items-start xl:pt-44 lg:pt-10 pt-0">
+                    <div className="w-full xl:w-1/2 flex flex-col lg:items-start xl:pt-44 lg:pt-10 pt-0">
                             <div className="relative z-50">
 
                                 <h1 className="w-full flex flex-wrap gap-x-[16px] xl:justify-start justify-center text-[40px] md:text-[80px] lg:text-[128px] font-normal text-black mb-0 mt-[15px] lg:leading-[163px]">

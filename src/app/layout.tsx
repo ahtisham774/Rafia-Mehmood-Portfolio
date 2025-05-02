@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" className={lexend.variable}>
-        <body className="antialiased relative px-3">{children}
+        <body className="antialiased relative">{children}
         <div className="block group cursor-pointer fixed z-50 md:bottom-6 bottom-2 md:right-16 right-5 md:h-[100px] w-[50px] h-[50px] md:w-[100px] bg-[#FF7C2B]">
             <div className="relative">
                 <div className="absolute md:-top-[11px] md:left-[10px] -top-[7px] left-[5px] group-hover:top-0 group-hover:left-0 transition-all duration-400 inset-0 flex items-center justify-center md:border-4 border-2 border-black group-hover:border-[#FF7C2B] group-hover:border-5 md:h-[100px] w-[50px] h-[50px] md:w-[100px]">

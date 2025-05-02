@@ -4,7 +4,7 @@ import React from 'react';
 const AboutMe: React.FC = () => {
     return (
         <section className="w-full bg-white">
-            <div className="max-w-[1440px] mx-auto lg:px-4 md:px-2 px-2 py-12 relative z-10">
+            <div className="max-w-[1440px] mx-auto lg:px-4 md:px-2 px-3 py-12 relative z-10">
                 <h1 className="md:text-[54px] text-[35px] font-normal mb-4 text-black">About me</h1>
 
                 <p className="max-w-full mb-16 md:text-[22px] text-[20px] text-black font-light">
