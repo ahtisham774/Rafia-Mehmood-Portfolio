@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import img from "../../../public/assets/home-images/image.png";
-import {BackgroundLines} from "@/components/ui/background-lines";
 
 export default function PortfolioHero() {
     return (

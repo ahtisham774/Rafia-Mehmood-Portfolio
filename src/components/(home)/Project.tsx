@@ -26,7 +26,7 @@ export default function ProjectsSection() {
         <h2 className="text-[54px] font-normal text-black mb-8 md:text-left text-center">Projects</h2>
 
         <div className="flex flex-col space-y-12">
-          {projects.map((project, idx) => (
+          {projects.map((project) => (
             <div
               key={project.id}
               className={`flex flex-col lg:flex-row items-center lg:space-x-8 space-y-6 md:space-y-0`}
