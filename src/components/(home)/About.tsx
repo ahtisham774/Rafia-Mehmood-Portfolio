@@ -93,9 +93,6 @@ const AboutMe: React.FC = () => {
                     </div>
                 </div>
             </div>
-
-            {/* Bottom border line */}
-            <div className="w-full h-px bg-gray-200"></div>
         </section>
     );
 };

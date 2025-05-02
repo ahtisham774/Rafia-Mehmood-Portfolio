@@ -1,9 +1,0 @@
-import PortfolioHero from "@/components/(home)/PortfolioHero";
-
-export default function Home() {
-  return (
-    <div className="">
-      <PortfolioHero/>
-    </div>
-  );
-}

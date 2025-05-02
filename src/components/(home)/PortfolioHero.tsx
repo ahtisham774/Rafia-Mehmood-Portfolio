@@ -4,7 +4,7 @@ import {BackgroundLines} from "@/components/ui/background-lines";
 
 export default function PortfolioHero() {
     return (
-        <div className="w-full bg-white">
+        <div className="w-full bg-white max-w-[1440px] mx-auto">
             <div className="py-10 md:py-24">
                 <div className="flex flex-col xl:flex-row items-start justify-between gap-8">
                     {/* Left side - Grid of images */}
@@ -28,7 +28,6 @@ export default function PortfolioHero() {
 
                     {/* Right side - Text content */}
                     <div className="w-full xl:w-1/2 flex flex-col items-start xl:pt-44 lg:pt-10 pt-0">
-                        <BackgroundLines className="">
                             <div className="relative z-50">
 
                                 <h1 className="w-full flex flex-wrap gap-x-[16px] xl:justify-start justify-center text-[40px] md:text-[80px] lg:text-[128px] font-normal text-black mb-0 mt-[15px] lg:leading-[163px]">
@@ -53,7 +52,6 @@ export default function PortfolioHero() {
                                     Download CV
                                 </button>
                             </div>
-                        </BackgroundLines>
 
                         {/* Bottom right orange square with arrow */}
 
