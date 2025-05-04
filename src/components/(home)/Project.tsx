@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from "next/link";
 
 const projects = [
   {
@@ -50,19 +51,20 @@ export default function ProjectsSection() {
                 <p className="text-[#595959] leading-relaxed mb-4 text-[18px] font-medium">
                   {project.description}
                 </p>
-                <a
+                <Link
                   href={project.url}
                   className="inline-block text-[#FF7C2B] font-medium hover:underline text-[18px]"
                 >
                   View More
-                </a>
+                </Link>
               </div>
               </div>
             </div>
           ))}
         </div>
           <div className='flex justify-center mt-[80px]'>
-        <a href="/projects" className='px-[50px] py-[15px] rounded-[50px] bg-[#FF7C2B] md:text-[25px] text-[20px] text-black text-semibold cursor-pointer hover:bg-transparent transition-all duration-500 border-2 border-[#FF7C2B] hover:text-[#FF7C2B]'>See All</a>
+        <Link
+            href="/projects" className='px-[50px] py-[15px] rounded-[50px] bg-[#FF7C2B] md:text-[25px] text-[20px] text-black text-semibold cursor-pointer hover:bg-transparent transition-all duration-500 border-2 border-[#FF7C2B] hover:text-[#FF7C2B]'>See All</Link>
         </div>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from "next/link";
 
 const projects = [
   {
@@ -77,12 +78,12 @@ export default function ProjectpagesSection() {
                 <p className="text-[#595959] leading-relaxed mb-4 text-[18px] font-medium">
                   {project.description}
                 </p>
-                <a
+                <Link
                   href={project.url}
                   className="inline-block text-[#FF7C2B] font-medium hover:underline text-[18px]"
                 >
                   View More
-                </a>
+                </Link>
               </div>
               </div>
             </div>
