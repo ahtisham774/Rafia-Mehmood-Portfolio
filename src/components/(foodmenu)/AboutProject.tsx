@@ -1,74 +1,52 @@
-import Image from 'next/image';
-import Link from "next/link";
+import React from 'react';
 
-const projects = [
-    {
-        id: 1,
-        title: 'Posters',
-        description:
-            'A collection of visually engaging posters created for events, promotions, and social media. Each design focuses on strong layout, impactful typography, and brand consistency to effectively communicate messages and capture audience attention.',
-        imageSrc: '/assets/home-images/Graphics1.png',
-        imageAlt: 'Grocery App Screens',
-    },
-    {
-        id: 2,
-        title: 'Logos',
-        description:
-            'A showcase of unique and memorable logo designs crafted for brands, events, and businesses. Each logo reflects a clear visual identity, combining simplicity, symbolism, and versatility to leave a lasting impression.',
-        imageSrc: '/assets/home-images/Graphics2.png',
-        imageAlt: 'Food Menu App Screens',
-    },
-];
-
-export default function AboutProject() {
+const AboutProject = () => {
     return (
-        <section id="projects" className="w-full px-4 py-12 bg-white relative z-40">
-            <div className="max-w-7xl mx-auto">
-                {/* Category Filter */}
-                <div className="flex justify-center items-center my-12">
-                    <div className="h-[4px] rounded bg-[#FF7C2B] w-64"></div>
-                    <span className="mx-4 text-[#FF7C2B] text-[28px] font-[300px] ">Graphics</span>
-                    <div className="h-[4px] rounded bg-[#FF7C2B] w-64"></div>
+        <div className="w-full px-4 py-12 bg-white max-w-[1440px] mx-auto">
+            <h1 className="md:text-[68px] text-[40px] font-bold text-[#FE8E4866] mb-8">About</h1>
+
+            <div className="bg-white rounded-3xl p-8 mb-24" style={{boxShadow: '2px 2px 19px 0px rgba(0, 0, 0, 0.11)',}}>
+                <h2 className="md:text-[36px] text-[25px] font-medium text-[#FE8E48] text-center mb-6">Problem Statement</h2>
+                <p className="text-[#595959] md:text-[24px] text-[18px] font-light text-center leading-relaxed">
+                    A modern mobile application designed to enhance the food ordering experience with an intuitive and visually appealing interface. The app allows users to browse meals, add items to their cart, and complete their order seamlessly
+                </p>
+            </div>
+
+            <div className="flex flex-col md:flex-row gap-6">
+                <div className="bg-white rounded-3xl p-8 flex-1" style={{boxShadow: '2px 2px 19px 0px rgba(0, 0, 0, 0.11)',}}>
+                    <h2 className="md:text-[36px] text-[25px] font-medium text-[#FE8E48] text-center mb-6">Target Audience</h2>
+                    <ul className="space-y-4">
+                        <li className="flex items-start gap-x-3">
+                            <span className="text-black text-[40px] font-light mt-4 h-[10px] leading-0">•</span>
+                            <span className="text-[#595959] md:text-[24px] text-[18px] font-light">Busy professionals who want a quick and hassle-free ordering process.</span>
+                        </li>
+                        <li className="flex items-start gap-x-3">
+                            <span className="text-black text-[40px] font-light mt-4 h-[10px] leading-0">•</span>
+                            <span className="text-[#595959] md:text-[24px] text-[18px] font-light">Food lovers looking for a visually engaging way to browse meals.</span>
+                        </li>
+                        <li className="flex items-start gap-x-3">
+                            <span className="text-black text-[40px] font-light mt-4 h-[10px] leading-0">•</span>
+                            <span className="text-[#595959] md:text-[24px] text-[18px] font-light">Restaurant customers who need an easy way to select and customize their meals.</span>
+                        </li>
+                    </ul>
                 </div>
 
-                <div className="flex flex-col space-y-12">
-                    {projects.map((project) => (
-                        <div
-                            key={project.id}
-                            className={`flex flex-col lg:flex-row items-center lg:space-x-8 space-y-6 md:space-y-0`}
-                        >
-                            <div className="w-full lg:w-1/2 flex-shrink-0 rounded-xl overflow-hidden">
-                                <Image
-                                    src={project.imageSrc}
-                                    alt={project.imageAlt}
-                                    width={600}
-                                    height={350}
-                                    className="object-cover w-full h-full lg:ml-0 md:ml-1"
-                                />
-                            </div>
-                            <div className='w-full lg:w-1/2'>
-                                <h3 className="font-semibold text-[#FE8E48] mb-4 md:text-end text-center text-[34px] lg:mt-0 mt-10">
-                                    {project.title}
-                                </h3>
-                                <div className="bg-gradient-to-l from-[#EB6C00]/10 via-purple-[#FF7C2B66]/15 to-[#FDB300]/25 p-6 rounded-xl lg:-ml-[85px] ml-0 backdrop-blur-[80px]">
-                                    <p className="text-[#595959] leading-relaxed mb-4 text-[18px] font-medium">
-                                        {project.description}
-                                    </p>
-                                    <Link
-                                        href="#"
-                                        className="inline-block text-[#FF7C2B] font-medium hover:underline text-[18px]"
-                                    >
-                                        View More
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    ))}
+                <div className="bg-white rounded-3xl p-8 flex-1" style={{boxShadow: '2px 2px 19px 0px rgba(0, 0, 0, 0.11)',}}>
+                    <h2 className="md:text-[36px] text-[25px] font-medium text-[#FE8E48] text-center mb-6">User Research</h2>
+                    <ul className="space-y-4 list-disc">
+                        <li className="flex items-start gap-x-3">
+                            <span className="text-black text-[40px] font-light mt-4 h-[10px] leading-0">•</span>
+                            <span className="text-[#595959] md:text-[24px] text-[18px] font-light">Conducted surveys & competitor analysis to identify key pain points.</span>
+                        </li>
+                        <li className="flex items-start gap-x-3">
+                            <span className="text-black text-[40px] font-light mt-4 h-[10px] leading-0">•</span>
+                            <span className="text-[#595959] md:text-[24px] text-[18px] font-light">Found that users preferred minimalist designs, clear CTAs, and smooth payment options.</span>
+                        </li>
+                    </ul>
                 </div>
-                {/*<div className='flex justify-center mt-[80px]'>*/}
-                {/*    <button className='px-[50px] py-[15px] rounded-[50px] bg-[#FF7C2B] md:text-[25px] text-[20px] text-black text-semibold cursor-pointer hover:bg-transparent transition-all duration-500 border-2 border-[#FF7C2B] hover:text-[#FF7C2B]'>See All</button>*/}
-                {/*</div>*/}
             </div>
-        </section>
+        </div>
     );
-}
+};
+
+export default AboutProject;
