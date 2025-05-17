@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import img1 from "../../../public/assets/home-images/landingPage/webview.png"
+import img2 from "../../../public/assets/home-images/landingPage/mobileview.png"
 
 export default function AboutProject() {
     return (
@@ -18,14 +20,13 @@ export default function AboutProject() {
                     <div className="w-full flex justify-center mt-4 sm:mt-8">
                         <div className="w-full max-w-full sm:max-w-5xl px-1 sm:px-4">
                             <Image
-                                src="/assets/home-images/landingPage/webview.png"
+                                src={img1}
                                 alt="Web view example"
                                 width={0}
                                 height={0}
                                 sizes="100vw"
                                 style={{ width: '100%', height: 'auto' }}
 
-                                priority
                             />
                         </div>
                     </div>
@@ -47,14 +48,14 @@ export default function AboutProject() {
                             <div>
                                 <div>
                                     <Image
-                                        src="/assets/home-images/landingPage/mobileview.png"
+                                        src={img2}
                                         alt="Mobile view example"
                                         width={0}
                                         height={0}
                                         sizes="(max-width: 768px) 100vw, 400px"
                                         style={{ width: '100%', height: 'auto' }}
                                          className="object-cover w-full  "
-                                        loading="eager"
+
                                     />
                                 </div>
                             </div>
