@@ -9,7 +9,7 @@ const projects = [
         'A modern mobile application designed to enhance the food ordering experience with an intuitive and visually appealing interface. The app allows users to browse meals, add items to their cart, and complete their order seamlessly.',
     imageSrc: '/assets/home-images/Portfolio2.png',
     imageAlt: 'Food Menu App Screens',
-    url: '#'
+    url: '/foodmenu'
   },
 
   {
@@ -19,7 +19,7 @@ const projects = [
         'Furniture E-Commerce App is a mobile and web-based shopping platform for browsing, customizing, and ordering furniture. It allows users to explore a wide variety of home furniture, read product details, and place orders with flexible delivery and payment options',
     imageSrc: '/assets/home-images/Portfolio4.png',
     imageAlt: 'Food Menu App Screens',
-    url: '#'
+    url: '/ecommerce'
   },
   {
 
@@ -39,7 +39,7 @@ const projects = [
         'This is a workflow and automation solutions provider dedicated to helping businesses automate, optimize, and scale. Our mission is to eliminate operational complexity and create a stable foundation for growth. We specialize in consultation, workflow mapping.',
     imageSrc: '/assets/home-images/Portfolio3.png',
     imageAlt: 'Grocery App Screens',
-    url: '#'
+    url: 'landingpage'
   },
 ];
 

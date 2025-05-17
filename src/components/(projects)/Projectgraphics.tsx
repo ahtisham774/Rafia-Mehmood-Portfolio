@@ -9,6 +9,7 @@ const projects = [
             'A collection of visually engaging posters created for events, promotions, and social media. Each design focuses on strong layout, impactful typography, and brand consistency to effectively communicate messages and capture audience attention.',
         imageSrc: '/assets/home-images/Graphics1.png',
         imageAlt: 'Grocery App Screens',
+        url: '/posters'
     },
     {
         id: 2,
@@ -17,6 +18,7 @@ const projects = [
             'A showcase of unique and memorable logo designs crafted for brands, events, and businesses. Each logo reflects a clear visual identity, combining simplicity, symbolism, and versatility to leave a lasting impression.',
         imageSrc: '/assets/home-images/Graphics2.png',
         imageAlt: 'Food Menu App Screens',
+        url: '/logos'
     },
 ];
 
@@ -55,7 +57,7 @@ export default function ProjectgraphicsSection() {
                                         {project.description}
                                     </p>
                                     <Link
-                                        href="#"
+                                        href={project.url}
                                         className="inline-block text-[#FF7C2B] font-medium hover:underline text-[18px]"
                                     >
                                         View More
