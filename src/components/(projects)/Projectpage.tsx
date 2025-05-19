@@ -13,15 +13,15 @@ const projects = [
   },
 
 
-  {
-    id: 2,
-    title: 'Landing Page',
-    description:
-        'This is a workflow and automation solutions provider dedicated to helping businesses automate, optimize, and scale. Our mission is to eliminate operational complexity and create a stable foundation for growth. We specialize in consultation, workflow mapping.',
-    imageSrc: '/assets/home-images/Portfolio3.png',
-    imageAlt: 'Grocery App Screens',
-    url: 'landingpage'
-  },
+  // {
+  //   id: 2,
+  //   title: 'Landing Page',
+  //   description:
+  //       'This is a workflow and automation solutions provider dedicated to helping businesses automate, optimize, and scale. Our mission is to eliminate operational complexity and create a stable foundation for growth. We specialize in consultation, workflow mapping.',
+  //   imageSrc: '/assets/home-images/Portfolio3.png',
+  //   imageAlt: 'Grocery App Screens',
+  //   url: 'landingpage'
+  // },
 ];
 
 export default function ProjectpagesSection() {
