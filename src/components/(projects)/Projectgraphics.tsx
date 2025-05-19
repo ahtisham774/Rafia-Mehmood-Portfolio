@@ -67,9 +67,6 @@ export default function ProjectgraphicsSection() {
                         </div>
                     ))}
                 </div>
-                {/*<div className='flex justify-center mt-[80px]'>*/}
-                {/*    <button className='px-[50px] py-[15px] rounded-[50px] bg-[#FF7C2B] md:text-[25px] text-[20px] text-black text-semibold cursor-pointer hover:bg-transparent transition-all duration-500 border-2 border-[#FF7C2B] hover:text-[#FF7C2B]'>See All</button>*/}
-                {/*</div>*/}
             </div>
         </section>
     );

@@ -4,16 +4,6 @@ import Link from "next/link";
 const projects = [
   {
     id: 1,
-    title: 'Food Menu App',
-    description:
-        'A modern mobile application designed to enhance the food ordering experience with an intuitive and visually appealing interface. The app allows users to browse meals, add items to their cart, and complete their order seamlessly.',
-    imageSrc: '/assets/home-images/Portfolio2.png',
-    imageAlt: 'Food Menu App Screens',
-    url: '/foodmenu'
-  },
-
-  {
-    id: 2,
     title: 'Ecommerce',
     description:
         'Furniture E-Commerce App is a mobile and web-based shopping platform for browsing, customizing, and ordering furniture. It allows users to explore a wide variety of home furniture, read product details, and place orders with flexible delivery and payment options',
@@ -21,19 +11,10 @@ const projects = [
     imageAlt: 'Food Menu App Screens',
     url: '/ecommerce'
   },
-  {
 
-    id: 3,
-    title: 'Grocery App',
-    description:
-      'Grocery at Home is a mobile application designed to simplify online grocery shopping. It enables users to easily browse, select, and order fresh groceries delivered to their doorstep, offering a smooth and intuitive experience from login to checkout.',
-    imageSrc: '/assets/home-images/Portfolio.png',
-    imageAlt: 'Grocery App Screens',
-    url: '/projectview'
-  },
 
   {
-    id: 4,
+    id: 2,
     title: 'Landing Page',
     description:
         'This is a workflow and automation solutions provider dedicated to helping businesses automate, optimize, and scale. Our mission is to eliminate operational complexity and create a stable foundation for growth. We specialize in consultation, workflow mapping.',
@@ -45,16 +26,8 @@ const projects = [
 
 export default function ProjectpagesSection() {
   return (
-    <section id="projects" className="w-full px-4 py-12 bg-white relative z-40">
+    <section id="projects" className="w-full px-4  bg-white relative z-40">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-[54px] font-normal text-black  md:text-left text-center">Projects</h2>
-        {/* Category Filter */}
-        <div className="flex justify-center items-center my-12">
-          <div className="h-[4px] rounded bg-[#FF7C2B] w-64"></div>
-          <span className="mx-4 text-[#FF7C2B] text-[28px] font-[300px] ">UI/UX</span>
-          <div className="h-[4px] rounded bg-[#FF7C2B] w-64"></div>
-        </div>
-
         <div className="flex flex-col space-y-12">
           {projects.map((project) => (
             <div
@@ -89,9 +62,7 @@ export default function ProjectpagesSection() {
             </div>
           ))}
         </div>
-        {/*  <div className='flex justify-center mt-[80px]'>*/}
-        {/*<button className='px-[50px] py-[15px] rounded-[50px] bg-[#FF7C2B] md:text-[25px] text-[20px] text-black text-semibold cursor-pointer hover:bg-transparent transition-all duration-500 border-2 border-[#FF7C2B] hover:text-[#FF7C2B]'>See All</button>*/}
-        {/*</div>*/}
+
       </div>
     </section>
   );

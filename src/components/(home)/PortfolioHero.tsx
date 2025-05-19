@@ -38,18 +38,20 @@ export default function PortfolioHero() {
                                         Designer</h2>
                                 </div>
 
-                                <button className="bg-[#FF7C2B] md:mt-[50px] mt-[30px] mx-auto group focus-visible:outline-0 border border-[#FF7C2B] cursor-pointer hover:bg-transparent text-black font-rm hover:text-[#FF7C2B]
-                         py-[16px] px-0 max-w-[305px] w-full justify-center md:text-[25px] text-[23px] rounded-full flex items-center transition-all duration-400 gap-x-7">
-                                    <svg width="26" height="28"
-                                         className="group-hover:text-[#FF7C2B] md:w-[20px] md:h-[28px] w-[20px] h-[24px]"
-                                         viewBox="0 0 26 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path className="transition-all duration-75"
-                                              d="M2 20.0882V22.7941C2 23.5118 2.28973 24.2 2.80546 24.7075C3.32118 25.2149 4.02065 25.5 4.75 25.5H21.25C21.9793 25.5 22.6788 25.2149 23.1945 24.7075C23.7103 24.2 24 23.5118 24 22.7941V20.0882M6.125 11.9706L13 18.7353M13 18.7353L19.875 11.9706M13 18.7353V2.5"
-                                              stroke="currentColor" stroke-width="4" stroke-linecap="round"
-                                              stroke-linejoin="round"/>
-                                    </svg>
-                                    Download CV
-                                </button>
+                                <a href="/assets/home-images/cv/Rafia_Mehmood_CV.pdf" download>
+                                    <button className="bg-[#FF7C2B] md:mt-[50px] mt-[30px] mx-auto group focus-visible:outline-0 border border-[#FF7C2B] cursor-pointer hover:bg-transparent text-black font-rm hover:text-[#FF7C2B]
+                                        py-[16px] px-0 max-w-[305px] w-full justify-center md:text-[25px] text-[23px] rounded-full flex items-center transition-all duration-400 gap-x-7">
+                                        <svg width="26" height="28"
+                                             className="group-hover:text-[#FF7C2B] md:w-[20px] md:h-[28px] w-[20px] h-[24px]"
+                                             viewBox="0 0 26 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path className="transition-all duration-75"
+                                                  d="M2 20.0882V22.7941C2 23.5118 2.28973 24.2 2.80546 24.7075C3.32118 25.2149 4.02065 25.5 4.75 25.5H21.25C21.9793 25.5 22.6788 25.2149 23.1945 24.7075C23.7103 24.2 24 23.5118 24 22.7941V20.0882M6.125 11.9706L13 18.7353M13 18.7353L19.875 11.9706M13 18.7353V2.5"
+                                                  stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
+                                        </svg>
+                                        Download CV
+                                    </button>
+                                   </a>
+
                             </div>
 
                         {/* Bottom right orange square with arrow */}
