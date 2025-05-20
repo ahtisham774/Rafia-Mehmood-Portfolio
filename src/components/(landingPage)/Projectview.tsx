@@ -7,19 +7,15 @@ export default function Projectviewsection() {
     return (
         <div className=" relative  bg-white ">
             {/* Orange vector shapes */}
-            <img src="/assets/home-images/projectview/vecter.png" alt="Orange Vector"  className="z-0 absolute top-0 left-0 md:w-[35%] h-[85%] lg:block hidden" />
+            <img src="/assets/home-images/projectview/vecter.png" alt="Orange Vector"  className="z-0 absolute top-0 left-0 md:w-[35%] h-[95%] lg:block hidden" />
                    <div className="absolute top-10 left-20 w-full h-full lg:block hidden">
                        <img
-                           src="/assets/home-images/foodmenu/Home-Page.png"
+                           src={'/assets/home-images/landingPage/webview.png'}
                            alt="Food app interface"
-                           className="rounded-2xl z-10 absolute object-contain top-14 left-2 h-[45%] lg:block hidden"
+                           className="rounded-2xl z-10 absolute object-contain top-0 left-2 h-[70%] lg:block hidden"
                        />
 
-                       <img
-                           src="/assets/home-images/foodmenu/SpecialMeal2.png"
-                           alt="Food app interface"
-                           className="rounded-2xl z-10 absolute object-contain  rotate-18 top-20 left-28  h-[40%] lg:block hidden"
-                       />
+                      
                     </div>
             <img src="/assets/home-images/projectview/vector2.png" alt="Orange Vector" className="absolute top-0 right-0 w-[35%] h-[60%] lg:block hidden" />
             <div className="w-full mx-auto md:py-32 py-10 md:max-w-[900px] max-w-full md:pl-72 pl-0 relative z-[999]">

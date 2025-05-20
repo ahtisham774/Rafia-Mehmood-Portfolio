@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import img1 from "../../../public/assets/home-images/landingPage/webview.png"
-import img2 from "../../../public/assets/home-images/landingPage/mobileview.png"
+
 
 export default function AboutProject() {
     return (
@@ -16,7 +15,7 @@ export default function AboutProject() {
                     <div className="w-full flex justify-center mt-4 sm:mt-8">
                         <div className="w-full max-w-full sm:max-w-5xl px-1 sm:px-4">
                             <Image
-                                src={img1}
+                                src={'/assets/home-images/landingPage/webview.png'}
                                 alt="Web view example"
                                 width={0}
                                 height={0}
@@ -44,7 +43,7 @@ export default function AboutProject() {
                             <div>
                                 <div>
                                     <Image
-                                        src={img2}
+                                        src={'/assets/home-images/landingPage/mobileview.png'}
                                         alt="Mobile view example"
                                         width={0}
                                         height={0}
