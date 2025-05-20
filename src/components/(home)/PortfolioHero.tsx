@@ -12,7 +12,7 @@ export default function PortfolioHero() {
                             <div className="relative h-full overflow-visible">
                                 <div className="relative inset-0">
                                     <Image
-                                        src={img.src}
+                                        src={'/assets/home-images/image.png'}
                                         alt="Portfolio person"
                                         layout="fill"
                                         objectFit="cover"
